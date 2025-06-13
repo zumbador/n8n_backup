@@ -7089,7 +7089,7 @@
     },
     {
       "createdAt": "2025-06-13T13:47:33.814Z",
-      "updatedAt": "2025-06-13T14:25:34.138Z",
+      "updatedAt": "2025-06-13T14:35:18.236Z",
       "id": "Dqsp8D7z4riWNcCU",
       "name": "Github backup",
       "active": false,
@@ -7111,28 +7111,6 @@
             140
           ],
           "typeVersion": 1.2
-        },
-        {
-          "parameters": {
-            "filters": {
-              "activeWorkflows": false
-            },
-            "requestOptions": {}
-          },
-          "id": "fc9dff37-9fec-43b6-afc9-61ce2984b8cc",
-          "name": "Retrieve workflows",
-          "type": "n8n-nodes-base.n8n",
-          "position": [
-            400,
-            560
-          ],
-          "typeVersion": 1,
-          "credentials": {
-            "n8nApi": {
-              "id": "5XHOo0XHlTPF4J0g",
-              "name": "n8n account"
-            }
-          }
         },
         {
           "parameters": {
@@ -7397,7 +7375,7 @@
             "options": {}
           },
           "id": "b6d33b7c-ebc9-4d7e-a4b1-fd57f8af9dde",
-          "name": "Retrieve workflows1",
+          "name": "Retrieve workflows",
           "type": "n8n-nodes-base.httpRequest",
           "position": [
             400,
@@ -7417,7 +7395,7 @@
           "main": [
             [
               {
-                "node": "Retrieve workflows1",
+                "node": "Retrieve workflows",
                 "type": "main",
                 "index": 0
               }
@@ -7455,11 +7433,6 @@
                 "index": 0
               }
             ]
-          ]
-        },
-        "Retrieve workflows": {
-          "main": [
-            []
           ]
         },
         "Check if file exists": {
@@ -7502,7 +7475,7 @@
             ]
           ]
         },
-        "Retrieve workflows1": {
+        "Retrieve workflows": {
           "main": [
             [
               {
@@ -7522,7 +7495,7 @@
         "templateCredsSetupCompleted": true
       },
       "pinData": {},
-      "versionId": "f3ce20ee-7fa4-4fd6-b162-2e114b5b5e20",
+      "versionId": "7ac09445-dcfd-4fe2-ba5d-c6cce40857bc",
       "triggerCount": 0,
       "tags": []
     },
