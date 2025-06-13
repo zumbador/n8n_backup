@@ -2,9 +2,9 @@
   "data": [
     {
       "createdAt": "2025-06-11T20:02:42.933Z",
-      "updatedAt": "2025-06-13T00:30:04.966Z",
+      "updatedAt": "2025-06-13T14:43:14.248Z",
       "id": "vRo31gG7fpG76CWG",
-      "name": "PDF Summary 5",
+      "name": "PDF Summary",
       "active": true,
       "isArchived": false,
       "nodes": [
@@ -108,44 +108,6 @@
           "id": "3e11a87e-304e-4b44-93c2-e84de6c4fa26",
           "name": "Extract from File1",
           "alwaysOutputData": true
-        },
-        {
-          "parameters": {
-            "pageId": {
-              "__rl": true,
-              "value": "https://www.notion.so/PDF-Summary-20a7112e57b98127b5a3f03fdd045cbf",
-              "mode": "url"
-            },
-            "title": "={{ $json.aiTitle }}",
-            "blockUi": {
-              "blockValues": [
-                {
-                  "textContent": "={{ $json.block1 }}"
-                },
-                {
-                  "textContent": "={{ $json.block2 }}"
-                },
-                {
-                  "textContent": "={{ $json.block3 }}"
-                }
-              ]
-            },
-            "options": {}
-          },
-          "type": "n8n-nodes-base.notion",
-          "typeVersion": 2.2,
-          "position": [
-            -6500,
-            2740
-          ],
-          "id": "b70b9e10-55b4-4d0e-b81b-4db9e068ac9a",
-          "name": "Notion_PDF Summary",
-          "credentials": {
-            "notionApi": {
-              "id": "wv5ZmtxyRwkU0dXZ",
-              "name": "Notion account"
-            }
-          }
         },
         {
           "parameters": {
@@ -265,7 +227,7 @@
         "templateCredsSetupCompleted": true
       },
       "pinData": {},
-      "versionId": "2ebb9388-3cf7-450d-ba8b-7026f12ec158",
+      "versionId": "aa881900-8115-4070-9f64-8d5c903e9d59",
       "triggerCount": 1,
       "tags": []
     },
